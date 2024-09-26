@@ -1,18 +1,17 @@
 
 import './styles.css';
-
+import HeanderClient from '../../components/HeaderClient';
 import computerImg from '../../assets/computer.png'; 
+import SearchBar from '../../components/SearchBar';
+
 
 function Catalog(){
     return (
+  <>
+      <HeanderClient />
         <main>
         <section id="catalog-section" className="dsc-container">
-          <form className="dsc-search-bar">
-            <button type="submit">🔎︎</button>
-            <input type="text" placeholder="Nome do produto" />
-            <button type="reset">🗙</button>
-          </form>
-  
+        <SearchBar />
           <div className="dsc-catalog-cards dsc-mb20 dsc-mt20">
             <div className="dsc-card">
               <div className="dsc-catalog-card-top dsc-line-bottom">
@@ -130,6 +129,8 @@ function Catalog(){
           <div className="dsc-btn-next-page">Carregar mais</div>
         </section>
       </main>
+
+      </>
     );
 }
 

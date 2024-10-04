@@ -1,10 +1,11 @@
 
-import Catalog from './routes/Catalog';
+import ProductDetailsCard from './components/ProductDetailsCard';
+
 
 
 function App() {
   return (
-    <Catalog />
+    <ProductDetailsCard />
   );
 }
 

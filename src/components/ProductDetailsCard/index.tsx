@@ -22,8 +22,9 @@ import './styles.css';
             sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className="dsc-category-container">
-             <ProductCategory />
-             <ProductCategory />
+             <ProductCategory name="Eletronic" />
+             <ProductCategory name="Computers" />
+             
           </div>
         </div>
       </div>

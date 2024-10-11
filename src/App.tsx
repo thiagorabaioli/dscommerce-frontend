@@ -1,11 +1,13 @@
 
+
 import ProductDetailsCard from './components/ProductDetailsCard';
+import { ProductDTO } from './models/product';
 
 
 
 function App() {
   return (
-    <ProductDetailsCard />
+    <ProductDetailsCard product={{} as ProductDTO } />
   );
 }
 

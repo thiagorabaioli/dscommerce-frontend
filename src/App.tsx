@@ -1,13 +1,12 @@
 
 
-import ProductDetailsCard from './components/ProductDetailsCard';
-import { ProductDTO } from './models/product';
+import ProductDetails from './routes/ProductDetails';
 
 
 
 function App() {
   return (
-    <ProductDetailsCard product={{} as ProductDTO } />
+    <ProductDetails/>
   );
 }
 

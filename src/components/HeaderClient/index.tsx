@@ -1,5 +1,5 @@
 
-import './styles.css  ';
+import './styles.css';
 import cartIcon from '../../assets/cart.svg';
 
 
